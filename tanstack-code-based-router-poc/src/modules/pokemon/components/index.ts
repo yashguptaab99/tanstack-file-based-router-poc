@@ -1,1 +1,2 @@
-export * from './PokemonSkeleton'
+export * from './PokemonDetailSkeleton'
+export * from './PokemonsSkeleton'

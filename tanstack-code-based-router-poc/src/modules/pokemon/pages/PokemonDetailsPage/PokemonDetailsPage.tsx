@@ -5,8 +5,6 @@ import { pokemonDetailRoute } from "./route";
 export default function PokemonDetailsPage() {
     const { pokemonId } = pokemonDetailRoute.useParams();
     const { data } = useSuspenseQuery(fetchPokemonById(pokemonId));
-
-    console.log(data)
   
     return (
       <div className='container mx-auto p-4 py-10 max-w-lg'>
